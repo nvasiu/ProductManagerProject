@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             panel1 = new Panel();
             label2 = new Label();
             showCheckbox = new CheckBox();
@@ -155,7 +156,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.YlqprZMVrDcJUXbdjc5rAP6uqoO_YT1xZNby3HjH_KM;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(500, 500);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
