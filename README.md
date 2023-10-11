@@ -8,7 +8,7 @@ An application to help store owners manage products, customers and orders. You c
 * Customers.
 * Orders and print order receipts.
 
-This API allows users to manage the database directly: https://github.com/nvasiu/ProductManagerAPI
+The application's user accounts can also be managed using this API: https://github.com/nvasiu/ProductManagerAPI
 
 [Video Demo](https://vimeo.com/845460545/487044794e?share=copy)
 
